@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --base-color: #ffa99c;
+    --base-color: #02bdf4;
     --button-border: rgba(0, 0, 0, 0.3);
 }
 
@@ -14,7 +14,6 @@
 body {
     font-family: "Work Sans", sans-serif;
     background-color: var(--base-color);
-    height: 100vh;
     display: flex;
     justify-content: center;
     padding: 32px;
@@ -27,14 +26,6 @@ body {
     background-color: #fff;
     width: 90vw;
     border-radius: 17px;
-}
-
-.todo__content{
-
-}
-
-.todo__title{
-
 }
 
 .todo__new{
@@ -67,6 +58,9 @@ body {
     color: white;
 }
 
+.todo__list{
+    margin-top: 20px;
+}
 
 .todo__list > *:not(:last-child) {
     margin-bottom: 10px;
